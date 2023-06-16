@@ -20,3 +20,4 @@ class User(object):
             str
         """
         return "Hello, i'm {self.name}, {self.age}".format(self=self)
+print('ХЗ')

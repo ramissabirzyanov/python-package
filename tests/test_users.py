@@ -7,10 +7,10 @@ def test_instantiation():
     assert bob.name == 'Bob'
     assert bob.age == 42
 
-
 def test_introduction():
     """Check that user introduses herself properly."""
     alice = User('Alice', 21)
     intro = alice.get_introduction()
     assert alice.name in intro
     assert str(alice.age) in intro
+print('why?')
